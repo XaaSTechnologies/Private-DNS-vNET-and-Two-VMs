@@ -1,9 +1,9 @@
-az group create --name RG-13-Private-DNS --location westeurope
+az group create --name RG-13-Private-DNS --location Canada Central
 
 az network vnet create \
   --name Private-DNS-vNET \
   --resource-group RG-13-Private-DNS \
-  --location westeurope \
+  --location Canada central \
   --address-prefix 10.15.0.0/16 \
   --subnet-name Subnet-01 \
   --subnet-prefix 10.15.0.0/24
